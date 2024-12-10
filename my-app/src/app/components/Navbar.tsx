@@ -18,7 +18,7 @@ export default function Navbar() {
         </div>
       </div>
       <div className="icons mt-4 md:mt-0">
-        <Image src={'/Profil & Notification.png'} alt='' width={236} height={44} />
+        <Image src={'/Profile.png'} alt='' width={236} height={44} />
       </div>
     </div>
   );
