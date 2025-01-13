@@ -2,9 +2,9 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { Card, CardHeader, CardTitle, CardDescription, CardContent, CardFooter } from "@/components/ui/card";
+import { Sidebar } from "lucide-react";
  
-import { Card, CardHeader, CardTitle, CardDescription, CardContent, CardFooter } from "npx create-next-app@latest <prefix>/components/ui/Card";
-import Sidebar from "npx create-next-app@latest <prefix>/components/Slidebar";
 
 export default function Page() {
   const [showMore, setShowMore] = useState(false);
