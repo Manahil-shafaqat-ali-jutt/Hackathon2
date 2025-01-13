@@ -3,8 +3,8 @@ import React from "react";
  
 import Image from "next/image";
 import Link from "next/link";
-import { Input } from "npx create-next-app@latest <prefix>/components/ui/Input";
-import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "npx create-next-app@latest <prefix>/components/ui/Card";
+import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/card";
+import { Input } from "@/components/ui/input";
 
 export default function Page() {
   return (
