@@ -2,7 +2,7 @@
 
 import Image from "next/image";  
 import Link from "next/link";
-import { Card, CardHeader, CardTitle, CardDescription, CardContent, CardFooter } from "npx create-next-app@latest <prefix>/components/ui/Card";
+import { Card, CardHeader, CardTitle, CardDescription, CardContent, CardFooter } from "/components/ui/Card";
 import { useEffect } from "react";
  
 
