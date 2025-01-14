@@ -3,8 +3,8 @@ import React, { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
  
-import { Card, CardHeader, CardTitle, CardDescription, CardContent, CardFooter } from "npx create-next-app@latest <prefix>/components/ui/Card";
-import Sidebar from "npx create-next-app@latest <prefix>/components/Slidebar";
+import { Card, CardHeader, CardTitle, CardDescription, CardContent, CardFooter } from "/components/ui/Card";
+import Sidebar from "/components/Slidebar";
 
 export default function Page() {
   const [showMore, setShowMore] = useState(false);
