@@ -1,6 +1,6 @@
  
+import PickDropForm from "@/components/PickDropForm";
 import Image from "next/image";
-import PickDropForm from "npx create-next-app@latest <prefix>/components/PickDropForm";
 
 export default function Home() {
   return (
