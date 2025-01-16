@@ -4,8 +4,6 @@ import Image from "next/image";
 import Link from "next/link";
 import { Card, CardHeader, CardTitle, CardDescription, CardContent, CardFooter } from "@/components/ui/card";
 import { Sidebar } from "lucide-react";
- 
-
 export default function Page() {
   const [showMore, setShowMore] = useState(false);
 

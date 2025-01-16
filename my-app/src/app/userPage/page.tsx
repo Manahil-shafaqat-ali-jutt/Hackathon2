@@ -1,4 +1,3 @@
- 
 import PickDropForm from "@/components/PickDropForm";
 import Image from "next/image";
 
